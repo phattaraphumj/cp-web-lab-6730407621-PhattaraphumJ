@@ -1,5 +1,5 @@
 import { fireEvent, render, screen, waitFor } from "@testing-library/react";
-import { GreetForm } from "@/components/greet-form";
+import { GreetForm } from "./greet-form";
 
 describe("GreetForm", () => {
   beforeEach(() => {
